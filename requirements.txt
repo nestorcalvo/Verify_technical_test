@@ -1,0 +1,2 @@
+python-dotenv==1.0.1
+veryfi==3.4.1
