@@ -57,5 +57,83 @@ To run this project, you will need to add the following environment variables to
 
 ## Demo
 
-Insert gif or link to demo
 
+Invoice PDF
+
+![](https://github.com/nestorcalvo/Verify_technical_test/blob/main/images/Screenshot_2.png)
+
+JSON generated
+
+```json
+{
+  "invoice_info": {
+    "Invoice Date": "09/11/23",
+    "Due Date": "12/27/23",
+    "Invoice No.": "16005913"
+  },
+  "pages": "1",
+  "month": "August",
+  "account": "D-99225830",
+  "po_number": "PO-968G-0297",
+  "invoice_ammounts": {
+    "item_1": {
+      "quantity": "6,016.09",
+      "rate": "-1,781.87",
+      "amount": "-10,719,890.29",
+      "type": "Transport",
+      "full_type": "Carrier Taxes for Transport"
+    },
+    "item_2": {
+      "quantity": "3,372.59",
+      "rate": "3,868.31",
+      "amount": "13,046,223.62",
+      "type": "Transport",
+      "full_type": "Transport"
+    },
+    "item_3": {
+      "quantity": "56789",
+      "rate": "3,593.22",
+      "amount": "4,915.32",
+      "type": "Transport",
+      "full_type": "Carrier Taxes for Transport"
+    },
+    "item_4": {
+      "quantity": "1,714.46",
+      "rate": "1,186.61",
+      "amount": "2,034,395.38",
+      "type": "Transport",
+      "full_type": "Transport"
+    },
+    "item_5": {
+      "quantity": "3,078.56",
+      "rate": "5,076.42",
+      "amount": "15,628,063.56",
+      "type": "Transport",
+      "full_type": "Transport"
+    },
+    "item_6": {
+      "quantity": "6,480.38",
+      "rate": "1,340.91",
+      "amount": "8,689,606.35",
+      "type": "Transport",
+      "full_type": "Transport"
+    }
+  },
+  "po_box": "674592",
+  "po_box_address": "Dallas, TX 75267-4592\n",
+  "user_name": "Nu Life Health",
+  "user_address": "228 East 45th Street\nNew York, NY 10017\n",
+  "value": "$46,340,224.75",
+  "currency": "USD",
+  "place_of_payment": "Switch, Ltd.",
+  "bank_name": "PNC Bank, N.A.",
+  "account_number": "3802512896",
+  "ACH_routing": "083009060",
+  "wire_routing": "043000096",
+  "swift": "PNCCUS33",
+  "deparment_phone": "702.522.2940",
+  "deparment_fax": "702.444.9546",
+  "deparment_email": "accountsreceivable@switch.com",
+  "deparment_website": "www.switch.com"
+}
+```
