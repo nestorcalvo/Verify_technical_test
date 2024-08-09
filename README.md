@@ -1,5 +1,5 @@
 
-# Verify Technical test Nestor Calvo
+# Veryfi Technical test Nestor Calvo
 
 Solution for the technical test done by Nestor Calvo CC. 1118871837.
 
